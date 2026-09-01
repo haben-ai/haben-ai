@@ -1,17 +1,16 @@
-<svg viewBox="0 0 1000 120" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Verdana, sans-serif">
+<svg viewBox="0 0 1000 120" xmlns="http://www.w3.org/2000/svg">
 <defs>
   <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#171c3d"/>
-    <stop offset="100%" stop-color="#0e1130"/>
+    <stop offset="0%" stop-color="#2c2a25"/>
+    <stop offset="100%" stop-color="#1b1a16"/>
   </linearGradient>
   <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#8ff0ff" stop-opacity="0.55"/>
-    <stop offset="50%" stop-color="#b78bff" stop-opacity="0.35"/>
-    <stop offset="100%" stop-color="#8ff0ff" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#e9c983" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#e9c983" stop-opacity="0.15"/>
   </linearGradient>
   <radialGradient id="iconGlow" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#8ff0ff" stop-opacity="0.5"/>
-    <stop offset="100%" stop-color="#8ff0ff" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#e9c983" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#e9c983" stop-opacity="0"/>
   </radialGradient>
   <linearGradient id="cubeTop" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0%" stop-color="#a9fbff"/>
@@ -26,13 +25,14 @@
     <stop offset="100%" stop-color="#5a5dd9"/>
   </linearGradient>
 </defs>
-
-<rect x="1" y="1" width="998" height="118" rx="16" fill="url(#panel)" stroke="#2c3468" stroke-width="1.5"/>
-<rect x="1" y="116" width="998" height="3" fill="url(#edge)"/>
+<rect x="1" y="1" width="998" height="118" rx="6" fill="url(#panel)" stroke="#4a4436" stroke-width="1.5"/>
+<rect x="1" y="1" width="998" height="2.5" fill="url(#edge)"/>
+<rect x="1" y="116.5" width="998" height="2.5" fill="url(#edge)"/>
 <g transform="translate(50,60.0)"><g><circle cx="0" cy="4" r="30" fill="url(#iconGlow)"/><g transform="translate(-6,14)">
-      <path d="M-6,-24 L6,-24 L6,-10 L16,14 Q18,20 10,20 L-10,20 Q-18,20 -16,14 L-6,-10 Z" fill="#233055" stroke="#4a568f" stroke-width="1.5"/>
-      <path d="M-13,10 Q0,4 13,10 L16,14 Q18,20 10,20 L-10,20 Q-18,20 -16,14 Z" fill="#7fd8ff" opacity="0.85"/>
-      <line x1="-8" y1="-24" x2="8" y2="-24" stroke="#4a568f" stroke-width="3" stroke-linecap="round"/>
-    </g><circle cx="-4" cy="30" r="2.2" fill="#e8fbff" opacity="0"><animate attributeName="cy" values="30;-4" dur="1.8s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="1.8s" begin="0.0s" repeatCount="indefinite"/></circle><circle cx="2" cy="30" r="1.9" fill="#e8fbff" opacity="0"><animate attributeName="cy" values="30;-4" dur="2.1s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="2.1s" begin="0.5s" repeatCount="indefinite"/></circle><circle cx="6" cy="30" r="1.6" fill="#e8fbff" opacity="0"><animate attributeName="cy" values="30;-4" dur="2.4s" begin="1.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="2.4s" begin="1.0s" repeatCount="indefinite"/></circle></g></g>
-<text x="130" y="69.0" font-size="30" font-weight="700" letter-spacing="6" fill="#eef3ff">RESEARCH</text>
+      <path d="M-6,-24 L6,-24 L6,-10 L16,14 Q18,20 10,20 L-10,20 Q-18,20 -16,14 L-6,-10 Z" fill="#2c2a25" stroke="#6b6252" stroke-width="1.5"/>
+      <path d="M-13,10 Q0,4 13,10 L16,14 Q18,20 10,20 L-10,20 Q-18,20 -16,14 Z" fill="#e9c983" opacity="0.8"/>
+      <line x1="-8" y1="-24" x2="8" y2="-24" stroke="#6b6252" stroke-width="3" stroke-linecap="round"/>
+    </g><circle cx="-4" cy="30" r="2.2" fill="#f2ede0" opacity="0"><animate attributeName="cy" values="30;-4" dur="1.8s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="1.8s" begin="0.0s" repeatCount="indefinite"/></circle><circle cx="2" cy="30" r="1.9" fill="#f2ede0" opacity="0"><animate attributeName="cy" values="30;-4" dur="2.1s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="2.1s" begin="0.5s" repeatCount="indefinite"/></circle><circle cx="6" cy="30" r="1.6" fill="#f2ede0" opacity="0"><animate attributeName="cy" values="30;-4" dur="2.4s" begin="1.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="2.4s" begin="1.0s" repeatCount="indefinite"/></circle></g></g>
+<text x="130" y="66.0" font-size="30" font-weight="700" letter-spacing="0.5" fill="#f2ede0" font-family="Georgia, 'Times New Roman', serif">Research</text>
+<text x="130" y="88.0" font-size="13" font-style="italic" letter-spacing="0.3" fill="#a39a86" font-family="Georgia, 'Times New Roman', serif">What I'm exploring</text>
 </svg>

@@ -1,17 +1,16 @@
-<svg viewBox="0 0 1000 120" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Verdana, sans-serif">
+<svg viewBox="0 0 1000 120" xmlns="http://www.w3.org/2000/svg">
 <defs>
   <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#171c3d"/>
-    <stop offset="100%" stop-color="#0e1130"/>
+    <stop offset="0%" stop-color="#2c2a25"/>
+    <stop offset="100%" stop-color="#1b1a16"/>
   </linearGradient>
   <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#8ff0ff" stop-opacity="0.55"/>
-    <stop offset="50%" stop-color="#b78bff" stop-opacity="0.35"/>
-    <stop offset="100%" stop-color="#8ff0ff" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#e9c983" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#e9c983" stop-opacity="0.15"/>
   </linearGradient>
   <radialGradient id="iconGlow" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#8ff0ff" stop-opacity="0.5"/>
-    <stop offset="100%" stop-color="#8ff0ff" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#e9c983" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#e9c983" stop-opacity="0"/>
   </radialGradient>
   <linearGradient id="cubeTop" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0%" stop-color="#a9fbff"/>
@@ -26,9 +25,10 @@
     <stop offset="100%" stop-color="#5a5dd9"/>
   </linearGradient>
 </defs>
-
-<rect x="1" y="1" width="998" height="118" rx="16" fill="url(#panel)" stroke="#2c3468" stroke-width="1.5"/>
-<rect x="1" y="116" width="998" height="3" fill="url(#edge)"/>
-<g transform="translate(50,60.0)"><g><circle cx="0" cy="0" r="30" fill="url(#iconGlow)"/><g transform="translate(-12,4)"><polygon points="0.0,-9.0 23.8,3.6 0.0,16.2 -23.8,3.6" fill="#2a3050"/><polygon points="23.8,12.6 0.0,25.2 0.0,16.2 23.8,3.6" fill="#171b30"/><polygon points="-23.8,12.6 0.0,25.2 0.0,16.2 -23.8,3.6" fill="#1d2240"/></g><path d="M-12,4 L-2,4 L-2,-6 L10,-6" fill="none" stroke="#8ff0ff" stroke-width="1.6" opacity="0.8"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.4s" repeatCount="indefinite"/></path><line x1="-14" y1="-22" x2="-14" y2="-14" stroke="#7fe7ff" stroke-width="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" begin="0.0s" repeatCount="indefinite"/></line><line x1="-4" y1="-22" x2="-4" y2="-14" stroke="#7fe7ff" stroke-width="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" begin="0.25s" repeatCount="indefinite"/></line><line x1="6" y1="-22" x2="6" y2="-14" stroke="#7fe7ff" stroke-width="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" begin="0.5s" repeatCount="indefinite"/></line><line x1="16" y1="-22" x2="16" y2="-14" stroke="#7fe7ff" stroke-width="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" begin="0.75s" repeatCount="indefinite"/></line></g></g>
-<text x="130" y="69.0" font-size="30" font-weight="700" letter-spacing="6" fill="#eef3ff">TECH STACK</text>
+<rect x="1" y="1" width="998" height="118" rx="6" fill="url(#panel)" stroke="#4a4436" stroke-width="1.5"/>
+<rect x="1" y="1" width="998" height="2.5" fill="url(#edge)"/>
+<rect x="1" y="116.5" width="998" height="2.5" fill="url(#edge)"/>
+<g transform="translate(50,60.0)"><g><circle cx="0" cy="0" r="30" fill="url(#iconGlow)"/><g transform="translate(-12,4)"><polygon points="0.0,-9.0 23.8,3.6 0.0,16.2 -23.8,3.6" fill="#2a3050"/><polygon points="23.8,12.6 0.0,25.2 0.0,16.2 23.8,3.6" fill="#171b30"/><polygon points="-23.8,12.6 0.0,25.2 0.0,16.2 -23.8,3.6" fill="#1d2240"/></g><path d="M-12,4 L-2,4 L-2,-6 L10,-6" fill="none" stroke="#e9c983" stroke-width="1.5" opacity="0.75"><animate attributeName="opacity" values="0.25;0.85;0.25" dur="2.8s" repeatCount="indefinite"/></path><line x1="-10" y1="-22" x2="-10" y2="-14" stroke="#e9c983" stroke-width="2"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.2s" begin="0.0s" repeatCount="indefinite"/></line><line x1="10" y1="-22" x2="10" y2="-14" stroke="#e9c983" stroke-width="2"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.2s" begin="0.4s" repeatCount="indefinite"/></line></g></g>
+<text x="130" y="66.0" font-size="30" font-weight="700" letter-spacing="0.5" fill="#f2ede0" font-family="Georgia, 'Times New Roman', serif">Tech Stack</text>
+<text x="130" y="88.0" font-size="13" font-style="italic" letter-spacing="0.3" fill="#a39a86" font-family="Georgia, 'Times New Roman', serif">Tools I use</text>
 </svg>
