@@ -1,0 +1,38 @@
+<svg viewBox="0 0 1000 120" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Verdana, sans-serif">
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#171c3d"/>
+    <stop offset="100%" stop-color="#0e1130"/>
+  </linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#8ff0ff" stop-opacity="0.55"/>
+    <stop offset="50%" stop-color="#b78bff" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#8ff0ff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="iconGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#8ff0ff" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#8ff0ff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="cubeTop" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#a9fbff"/>
+    <stop offset="100%" stop-color="#7fd8f0"/>
+  </linearGradient>
+  <linearGradient id="cubeL" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#5aa7d9"/>
+    <stop offset="100%" stop-color="#3d7cae"/>
+  </linearGradient>
+  <linearGradient id="cubeR" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#7a7dff"/>
+    <stop offset="100%" stop-color="#5a5dd9"/>
+  </linearGradient>
+</defs>
+
+<rect x="1" y="1" width="998" height="118" rx="16" fill="url(#panel)" stroke="#2c3468" stroke-width="1.5"/>
+<rect x="1" y="116" width="998" height="3" fill="url(#edge)"/>
+<g transform="translate(50,60.0)"><g><circle cx="0" cy="-2" r="30" fill="url(#iconGlow)"/><g transform="translate(-14,10)"><polygon points="0.0,-8.1 27.2,6.3 6.8,17.1 -20.4,2.7" fill="#ffd98a"/><polygon points="27.2,14.4 6.8,25.2 6.8,17.1 27.2,6.3" fill="#d9a75a"/><polygon points="-20.4,10.8 6.8,25.2 6.8,17.1 -20.4,2.7" fill="#c2924a"/></g><g transform="translate(4,-4)">
+      <animateTransform attributeName="transform" type="translate" values="4,4;10,-14;4,4" dur="2.6s" repeatCount="indefinite"/>
+      <path d="M0,-14 L5,2 L0,-1 L-5,2 Z" fill="#8ff0ff"/>
+      <path d="M0,2 L3,10 L0,7 L-3,10 Z" fill="#ffb27a"><animate attributeName="opacity" values="1;0.4;1" dur="0.3s" repeatCount="indefinite"/></path>
+    </g></g></g>
+<text x="130" y="69.0" font-size="30" font-weight="700" letter-spacing="6" fill="#eef3ff">PROJECTS</text>
+</svg>
