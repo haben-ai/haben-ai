@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Haben</h1>
+<h1 align="center">WellCome to my virtual office 👋, I'm Haben</h1>
 
 <h3 align="center">
 AI/ML Engineer · Researcher · Builder
@@ -11,10 +11,10 @@ AI/ML Engineer · Researcher · Builder
 </p>
 
 <p align="center">
-  <a href="https://github.com/">
+  <a href="https://github.com/haben-ai">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://www.linkedin.com/">
+  <a href="https://www.linkedin.com/in/habenfisehaye//">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
@@ -211,7 +211,7 @@ My goal is to build AI that is:
 ## 📈 GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&count_private=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=haben-ai&show_icons=true&hide_border=true&count_private=true" height="170"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true" height="170"/>
 </p>
 
