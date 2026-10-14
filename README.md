@@ -6,8 +6,10 @@
   4. Confirm "Haben Eyasu" is how you want your name to appear (previous README just used "Haben").
 -->
 
+<h1 align="center">Welcome to my virtual office</h1>
+
 <p align="center">
-  <img src="assets/virtual-office-hero.svg" width="100%" alt="Welcome to Haben's virtual office" />
+  <img src="assets/virtual-office.jpg" width="100%" alt="Haben at his desk in a virtual office" />
 </p>
 
 Hi, I'm Haben.
