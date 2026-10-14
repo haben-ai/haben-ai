@@ -50,12 +50,6 @@ I work across the full AI/data lifecycle — collecting and modeling data, train
 
 Applied AI/NLP research on low-resource and African languages — Tigrinya and Ge'ez tokenization, language modeling, and Named Entity Recognition, where datasets and tooling are still limited.
 
-## 📊 GitHub / Engineering
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=haben-ai&show_icons=true&hide_border=true&count_private=true" height="150"/>
-</p>
-
 ## 📫 Connect
 
 <p align="center">
